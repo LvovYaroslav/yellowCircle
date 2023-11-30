@@ -17,7 +17,6 @@ class Main(Ui, QMainWindow):
         super().__init__()
         self.a = randint(1, 100)
         self.draw = False
-        self.setMouseTracking(True)
         self.colors = ['Red', 'Orange', 'Yellow', 'Green', 'Cyan',
                        'Blue', 'Magenta', 'Purple', 'Brown', 'Black']
         self.circle = QPushButton("press", self)
